@@ -1,0 +1,152 @@
+{
+    "data": [
+        {
+            "stateId": "AN",
+            "stateName": "Andaman and Nicobar Islands"
+        },
+        {
+            "stateId": "AP",
+            "stateName": "Andhra Pradesh"
+        },
+        {
+            "stateId": "AR",
+            "stateName": "Arunachal Pradesh"
+        },
+        {
+            "stateId": "AS",
+            "stateName": "Assam"
+        },
+        {
+            "stateId": "BI",
+            "stateName": "Bihar"
+        },
+        {
+            "stateId": "CG",
+            "stateName": "Chandigarh"
+        },
+        {
+            "stateId": "CH",
+            "stateName": "Chhattisgarh"
+        },
+        {
+            "stateId": "DN",
+            "stateName": "Dadra and Nagar Haveli"
+        },
+        {
+            "stateId": "DD",
+            "stateName": "Daman and Diu"
+        },
+        {
+            "stateId": "DE",
+            "stateName": "Delhi"
+        },
+        {
+            "stateId": "GO",
+            "stateName": "Goa"
+        },
+        {
+            "stateId": "GU",
+            "stateName": "Gujarat"
+        },
+        {
+            "stateId": "HA",
+            "stateName": "Haryana"
+        },
+        {
+            "stateId": "HP",
+            "stateName": "Himachal Pradesh"
+        },
+        {
+            "stateId": "JK",
+            "stateName": "Jammu and Kashmir"
+        },
+        {
+            "stateId": "GK",
+            "stateName": "Jharkhand"
+        },
+        {
+            "stateId": "KT",
+            "stateName": "Karnataka"
+        },
+        {
+            "stateId": "KE",
+            "stateName": "Kerala"
+        },
+        {
+            "stateId": "LAD",
+            "stateName": "Ladakh"
+        },
+        {
+            "stateId": "LAP",
+            "stateName": "Lakshadweep"
+        },
+        {
+            "stateId": "MP",
+            "stateName": "Madhya Pradesh"
+        },
+        {
+            "stateId": "MH",
+            "stateName": "Maharashtra"
+        },
+        {
+            "stateId": "MNP",
+            "stateName": "Manipur"
+        },
+        {
+            "stateId": "MEG",
+            "stateName": "Meghalaya"
+        },
+        {
+            "stateId": "MI",
+            "stateName": "Mizoram"
+        },
+        {
+            "stateId": "NAG",
+            "stateName": "Nagaland"
+        },
+        {
+            "stateId": "OD",
+            "stateName": "Odisha"
+        },
+        {
+            "stateId": "PU",
+            "stateName": "Puducherry"
+        },
+        {
+            "stateId": "PUN",
+            "stateName": "Punjab"
+        },
+        {
+            "stateId": "RAJ",
+            "stateName": "Rajasthan"
+        },
+        {
+            "stateId": "SKI",
+            "stateName": "Sikkim"
+        },
+        {
+            "stateId": "TAN",
+            "stateName": "Tamil Nadu"
+        },
+        {
+            "stateId": "TEL",
+            "stateName": "Telangana"
+        },
+        {
+            "stateId": "TRI",
+            "stateName": "Tripura"
+        },
+        {
+            "stateId": "UTP",
+            "stateName": "Uttar Pradesh"
+        },
+        {
+            "stateId": "UTT",
+            "stateName": "Uttarakhand"
+        },
+        {
+            "stateId": "WEB",
+            "stateName": "West Bengal"
+        }
+    ]
+}

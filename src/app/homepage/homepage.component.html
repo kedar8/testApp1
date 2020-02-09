@@ -1,0 +1,54 @@
+<amexio-nav [enable-side-nav-position]="false" class="ok" [title]="'Mimir'" [logo]="'assets/images/think.png'">
+
+
+    <amexio-nav-item position-right [type]="'link'" [icon]="'fa fa-bell'">
+    </amexio-nav-item>
+    <amexio-nav-item position-right [type]="'textfield'" [title]="'Enter your name'">
+    </amexio-nav-item>
+    <amexio-nav-item position-right [type]="'link'" [icon]="'fa fa-sign-out'" [title]="'Logout'" (onNavItemClick)="onLogoutClick()">
+    </amexio-nav-item>
+</amexio-nav>
+<amexio-row>
+
+    <amexio-column [size]="'2pt5'" style="padding-top:65px;">
+        <amexio-side-nav [height]="'92%'" [background]="'rgba(0,0,0,.7)'" [color]="'white'"
+            [bg-image]="'assets/images/p.jpeg'">
+            <br />
+            <amexio-sidenav-node>
+                <amexio-layout-columns [border]="false" [fit]="true" [orientation]="'horizontal'">
+                    <amexio-layout-item>
+                        <amexio-image [height]="'79.75px'" [width]="'79.75px'" [c-class]="'image-round'"
+                            path="assets/images/john.jpg">
+                        </amexio-image>
+                    </amexio-layout-item>
+                    <amexio-layout-item>
+                        <ng-container *ngIf="commonService.loginModel.username">
+                            <amexio-label [size]="'medium'"> {{commonService.loginModel.username}}</amexio-label>
+                        </ng-container> 
+                    </amexio-layout-item>
+                </amexio-layout-columns>
+
+            </amexio-sidenav-node>
+            <br />
+            <amexio-sidenav-node [expand]="true" [enable-border]="true" [data]='dashboardMenu' [label]="'Class'"
+                [icon]="'fa fa-th'" (nodeClick)="onClassClick($event)">
+            </amexio-sidenav-node>
+
+        </amexio-side-nav>
+
+
+    </amexio-column>
+    <amexio-column [size]="'9pt5'" style="padding-top:68px;" [fit]="false">
+        <div *ngIf="isRouteLoading">
+            <amexio-spinner [type]="'rectanglebounce'" [vertical-position]="'center'" [horizontal-position]="'center'"
+                [color]="'black'" [size]="'7px'">
+            </amexio-spinner>
+
+        </div>
+        <div style="padding-top:1.8%">
+            <router-outlet></router-outlet>
+        </div>
+    </amexio-column>
+
+
+</amexio-row>

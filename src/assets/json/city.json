@@ -1,0 +1,44 @@
+{
+    "response": {
+      "success": true,
+      "message": "Fetching  Data  Request Succeeded: City",
+      "data": [
+        {
+          "cityName": "Mumbai",
+          "cityCode1": "MU"
+        },
+        {
+          "cityName": "Pune",
+          "cityCode": "PN"
+        },
+        {
+          "cityName": "Solapur",
+          "cityCode1": "SO"
+        },
+        {
+          "cityName": "Kolhapur",
+          "cityCode1": "KO"
+        },
+        {
+          "cityName": "Satara",
+          "cityCode1": "SA"
+        },
+        {
+          "cityName": "Sangli",
+          "cityCode1": "SG"
+        },
+        {
+          "cityName": "Latur",
+          "cityCode": "LA"
+        },
+        {
+            "cityName": "Panvel",
+            "cityCode1": "PE"
+          },
+          {
+            "cityName": "Nashik",
+            "cityCode": "NA"
+          }
+      ]
+    }
+  }
