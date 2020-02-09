@@ -8,7 +8,6 @@ import { CookieService } from "ngx-cookie-service";
 export class HttpService {
 
     constructor(private _cookieService: CookieService, private http: HttpClient) {
-
     }
 
     fetch(serviceUrl: string, methodType: string): Observable<any> {
