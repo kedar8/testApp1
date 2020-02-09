@@ -7,7 +7,7 @@ import { AmexioWidgetModule, AmexioChartsModule, AmexioDashBoardModule, AmexioEn
 
 
 import { RouterModule } from "@angular/router";
-import { CREATIVE_DEMO_ROUTE } from "./app.routes";
+import { CREATIVE_ROUTE } from "./app.routes";
 
 import { LoginPageComponent } from './loginpage/loginpage.component';
 import { RoutingService } from './routing-service';
@@ -25,7 +25,7 @@ import { RegistrationComponent } from './registration/registration.component';
     FormsModule, AmexioChartsModule, AmexioDashBoardModule, AmexioEnterpriseModule, AmexioMapModule,
     AmexioWidgetModule,
     HttpClientModule,
-    RouterModule.forRoot(CREATIVE_DEMO_ROUTE, {useHash: true})],
+    RouterModule.forRoot(CREATIVE_ROUTE, {useHash: true})],
 
   bootstrap: [AppComponent],
   providers: [RoutingService,CommonSharedService],
