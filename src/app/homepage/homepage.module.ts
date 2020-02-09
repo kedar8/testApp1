@@ -9,7 +9,6 @@ import {
 } from 'amexio-ng-extensions';
 import { RouterModule, Routes } from '@angular/router';
 
-import { AmexioChartD3Module } from 'amexio-chart-d3';
 import { HttpClientModule } from '@angular/common/http';
 
 /**
@@ -25,7 +24,7 @@ const routes: Routes = [
 @NgModule({
   declarations: [HomeComponent],
   imports: [CommonModule,
-    FormsModule, AmexioChartD3Module, AmexioChartsModule, AmexioDashBoardModule, AmexioEnterpriseModule, AmexioMapModule,
+    FormsModule, AmexioChartsModule, AmexioDashBoardModule, AmexioEnterpriseModule, AmexioMapModule,
     AmexioWidgetModule, HttpClientModule,
     RouterModule.forChild(routes),
   ],
